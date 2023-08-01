@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(194, 194, 240)!important;
+}
+.div-from {
+    background-color: rgb(169, 169, 209);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /* margin-top: 10px; */
+    border-radius: 15px;
+    position: sticky;
+    z-index: 100;
+    overflow: hidden;
+    top: 10px;
+}
+img {
+    width: 100%;
+    padding: 0;
+}
+.phone_1,
+.phone_2,
+.phone_3,
+.phone_4 {
+    background-color: #ffff;
+    margin-left: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+.cloth_1,
+.cloth_2,
+.cloth_3,
+.cloth_4 {
+    background-color: #ffff;
+    margin-left: 10px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+.shose_1,
+.shose_2,
+.shose_3,
+.shose_4 {
+    background-color: #ffff;
+    margin-left: 10px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+.aline-items-start {
+    margin: 50px 0 20px 0;
+}
+.align-items-center {
+    margin-bottom: 50px;
+}
+h4 {
+    font-size: 30px!important;
+}
+h4,
+p {
+    padding-left: 40px;
+}
+span {
+    padding-left: 40px;
+}
+.original {
+    text-decoration: line-through;
+    color: red;
+}
+.div-product button {
+    display: block;
+    margin-left: 10%;
+    padding: 5px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 85%;
+    color: #ffff;
+    background-color: darkblue;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.div-product button:hover {
+    background: linear-gradient(to right, rgb(0, 255, 0), rgb(255, 0, 191));
+    letter-spacing: 1px;
+}
+form button {
+    padding: 5px 11px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+form button:hover {
+    background-color: darkblue;
+    color: #ffff !important;
+}
+form button a {
+    color: #000;
+    text-decoration: none;
+}
+form button a:hover {
+    color: #ffff;
+}
+
+
+/*Small Screens*/
+@media (min-width: 768px) {
+    .product {
+        display: flex;
+        justify-content: space-between;
+    }
+}
